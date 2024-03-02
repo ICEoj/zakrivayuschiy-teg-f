@@ -6,10 +6,6 @@
 */
 
 :root.theme-light {
-  --main-font: "Inter-Variable";
-  --other-main: "PressStart2P";
-  --big-weight: 700;
-  --small-weigth: 400;
   --bg-image: repeating-linear-gradient(
       to left,
       #d3d3d3 0px 2px,
@@ -21,11 +17,11 @@
   --heart-color: #f00;
   --bg-color: #ffffff;
   --color-button: #ffffff;
+  --big-weight: 700;
+  --small-weigth: 400;
 }
 
 :root.theme-dark {
-  --big-weight: 700;
-  --small-weigth: 400;
   --bg-image: repeating-linear-gradient(
       to right,
       #000 0px 2px,
@@ -37,12 +33,12 @@
   --bg-color: #000000;
   --color-button: #00cc14;
   --heart-color: #f00;
+  --big-weight: 785;
+  --small-weigth: 465;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --big-weight: 700;
-    --small-weigth: 400;
     --bg-image: repeating-linear-gradient(
         to right,
         #000 0px 2px,
@@ -54,5 +50,7 @@
     --bg-color: #000000;
     --color-button: #00cc14;
     --heart-color: #f00;
+    --big-weight: 785;
+    --small-weigth: 465;
   }
 }
